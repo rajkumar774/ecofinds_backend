@@ -1,3 +1,4 @@
+pip==25.2
 fastapi==0.111.1          # FastAPI framework
 uvicorn==0.23.2           # ASGI server
 pymongo==4.4.0            # MongoDB driver
