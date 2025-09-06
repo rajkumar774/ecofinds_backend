@@ -1,5 +1,5 @@
 pip==25.2
-fastapi==0.111.1          # FastAPI framework
+fastapi  # FastAPI framework
 uvicorn[standard]    # ASGI server
 pymongo==4.4.0            # MongoDB driver
 python-jose==3.3.0        # JWT handling
