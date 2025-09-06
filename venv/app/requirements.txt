@@ -1,6 +1,6 @@
 pip==25.2
 fastapi==0.111.1          # FastAPI framework
-uvicorn==0.23.2           # ASGI server
+uvicorn[standard]    # ASGI server
 pymongo==4.4.0            # MongoDB driver
 python-jose==3.3.0        # JWT handling
 passlib[bcrypt]==1.7.5    # Password hashing
