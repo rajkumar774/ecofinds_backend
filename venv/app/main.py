@@ -3,7 +3,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import auth_routes, products_routes, cart_routes, purchase_routes
 
-app = FastAPI(title="EcoFinds Backend", version="1.0.0")
+
+app = FastAPI(title="EcoFinds Backend",)
 
 # CORS
 origins = os.getenv("CORS_ORIGINS", "*").split(",")
