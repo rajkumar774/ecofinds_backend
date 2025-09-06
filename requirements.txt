@@ -5,6 +5,6 @@ pymongo==4.4.0            # MongoDB driver
 python-jose==3.3.0        # JWT handling
 passlib[bcrypt]>=1.7.4,<1.8
 python-dotenv==1.0.0      # Load .env variables
-python-multipart==0.0.6   # For file uploads (multipart/form-data)
+python-multipart>=0.0.7   # For file uploads (multipart/form-data)
 # Optional for AI chatbot
 openai==1.31.0
