@@ -1,0 +1,9 @@
+fastapi==0.111.1          # FastAPI framework
+uvicorn==0.23.2           # ASGI server
+pymongo==4.4.0            # MongoDB driver
+python-jose==3.3.0        # JWT handling
+passlib[bcrypt]==1.7.5    # Password hashing
+python-dotenv==1.0.0      # Load .env variables
+python-multipart==0.0.6   # For file uploads (multipart/form-data)
+# Optional for AI chatbot
+openai==1.31.0
