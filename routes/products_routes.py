@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from typing import Optional, List
-from app.schemas import ProductIn, ProductOut
-from app.database import products
-from app.auth import get_current_user_email
-from app.utils import oid, serialize_id
+from schemas import ProductIn, ProductOut
+from database import products
+from auth import get_current_user_email
+from utils import oid, serialize_id
 
 router = APIRouter(prefix="/products", tags=["Products"])
 
