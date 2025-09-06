@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends
 from typing import List
 from datetime import datetime
-from app.schemas import PurchaseOut
-from app.database import carts, products, purchases
-from app.auth import get_current_user_email
-from app.utils import serialize_id
+from schemas import PurchaseOut
+from database import carts, products, purchases
+from auth import get_current_user_email
+from utils import serialize_id
 
 router = APIRouter(prefix="/purchases", tags=["Purchases"])
 
