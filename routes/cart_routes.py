@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
-from app.schemas import CartAddIn, CartItemOut, ProductOut
-from app.database import carts, products
-from app.auth import get_current_user_email
-from app.utils import oid, serialize_id
+from schemas import CartAddIn, CartItemOut, ProductOut
+from database import carts, products
+from auth import get_current_user_email
+from utils import oid, serialize_id
 
 router = APIRouter(prefix="/cart", tags=["Cart"])
 
